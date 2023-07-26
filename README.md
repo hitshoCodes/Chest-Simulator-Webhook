@@ -8,7 +8,7 @@ Stay on top of your game with the Chest Simulator Notifications program! Get rea
 Never miss a crucial moment in the game! Receive timely notifications through webhooks, ensuring you're always informed about your progress and achievements.
 
 *⚙️ Simple and Seamless Integration:*
-Our program seamlessly integrates with Chest Simulator, one of Roblox's thrilling games. Just connect your account, and you're good to go - no complex setups or technical expertise required!
+Our program seamlessly integrates with Chest Simulator, one of Roblox's thrilling games. Just launch the game on your account, execute the script and you're good to go - no complex setups or technical expertise required!
 
 *📈 Track Your Progress:*
 Track your gameplay statistics over time and monitor your growth. Whether you're striving to beat your own records or aiming for the top of the leaderboards, our notifications keep you updated every step of the way.

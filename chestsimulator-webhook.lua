@@ -66,7 +66,7 @@ end)
     ["content-type"] = "application/json"
     }
 
-    if key == "abc123" then
+    if key == "abc.123" then
             request = http_request or request or HttpPost or syn.request
             local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
             request(abcdef)

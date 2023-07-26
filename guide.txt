@@ -1,0 +1,29 @@
+How to setup and use RoNotifier via Webhooks:
+
+So, first of all, note that using third-party executables to modify games violates the Roblox Terms of Service and can lead to consequences such as account suspension or termination.
+
+Now that we've got that out of the way, here is a step-by-step guide.
+
+Step 1: Downloading the RoNotifier code
+
+1. Head over to https://github.com/hitshoCodes/Chest-Simulator-Webhook/ and download the latest version of RoNotifier.
+2. Open the downloaded file and locate webhook.lua, open it via notepad or any program of your choice and copy the code into your clipboard.
+
+Step 2: Setting RoNotifier up
+
+1. Open a Roblox executor of your choice and paste the code into the executor.
+2. Change the code or settings to your likings, it will ask you for a key, the key is "abc.123".
+
+Step 3: Executing RoNotifier
+
+1. Press Attach/Inject in your executor.
+2. Press Execute in your executor.
+3. Check if the script injected, to check, press F9 on your keyboard and check for "RoNotifier".
+4. If it didn't show anything with "RoNotifier", redo all the steps.
+
+Step 4: Enjoying the advantage
+
+1. Enjoy sitting anywhere in the world and being able to check your stats.
+2. Happy Gaming!
+
+Remember to check sometimes if a newer version has came out, since this is important to avoid any troubles with the program.

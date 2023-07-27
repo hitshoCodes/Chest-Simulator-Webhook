@@ -20,3 +20,8 @@ We've decided to make the Chest Simulator Notifications program completely free 
 While we're not actively working on the project right now, there's a possibility that development may resume in the future. Stay tuned for updates and additional features!
 
 Enhance your gaming experience with Chest Simulator Notifications. Be in the know about your in-game accomplishments as they happen. Try it out now! 😎
+
+
+__**Showcase:**__
+
+![image](https://github.com/hitshoCodes/Chest-Simulator-Webhook/assets/134806168/48215a13-b936-4b79-a092-74753cd7183c)

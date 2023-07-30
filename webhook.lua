@@ -1,7 +1,7 @@
-getgenv().key = "abc.123" -- Your RoNotifier key!
-getgenv().DiscordUserID = "866428192713867264" -- Your Discord User ID (Optional)
-getgenv().url = "https://discord.com/api/webhooks/1112225256359350303/MTZKrfBZ3aOVd5AlSJXGz7PT5YuYil3wgKSLYUSlLaFfpmZbqPMyv_yNRVbVrfw6v8Qk" -- Your Discord webhook!
-getgenv().UICooldown = 1 -- How many minutes until it sends a webhook.
+getgenv().key = "" -- Your RoNotifier key!
+getgenv().DiscordUserID = "" -- Your Discord User ID (Optional)
+getgenv().url = "https://discord.com/api/webhooks/1112225256359350303/" -- Your Discord webhook!
+getgenv().UICooldown = 10 -- How many minutes until it sends a webhook.
 
 -- Don't change these below!
 

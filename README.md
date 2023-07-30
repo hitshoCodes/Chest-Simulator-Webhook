@@ -24,4 +24,4 @@ Enhance your gaming experience with Chest Simulator Notifications. Be in the kno
 
 __**Showcase:**__
 
-![image](https://github.com/hitshoCodes/Chest-Simulator-Webhook/assets/134806168/48215a13-b936-4b79-a092-74753cd7183c)
+![image](https://i.ibb.co/QHYxpQy/image-2023-07-30-160159126.png)

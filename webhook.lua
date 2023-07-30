@@ -1,11 +1,11 @@
-getgenv().key = "" -- Your RoNotifier key!
-getgenv().DiscordUserID = "" -- Your Discord User ID (Optional)
-getgenv().url = "https://discord.com/api/webhooks/" -- Your Discord webhook!
-getgenv().UICooldown = 10 -- How many minutes until it sends a webhook.
+getgenv().key = "abc.123" -- Your RoNotifier key!
+getgenv().DiscordUserID = "866428192713867264" -- Your Discord User ID (Optional)
+getgenv().url = "https://discord.com/api/webhooks/1112225256359350303/MTZKrfBZ3aOVd5AlSJXGz7PT5YuYil3wgKSLYUSlLaFfpmZbqPMyv_yNRVbVrfw6v8Qk" -- Your Discord webhook!
+getgenv().UICooldown = 1 -- How many minutes until it sends a webhook.
 
 -- Don't change these below!
 
-local Version = "v1.5.0"
+local Version = "v1.5.1"
 
 local Status = "false"
 local Cooldown = UICooldown*60
@@ -32,6 +32,7 @@ end)
     local Coins = game:GetService("Players").LocalPlayer.leaderstats.Coins.value
     local TechCoins = game:GetService("Players").LocalPlayer.PlayerGui.GameUI.Menus.Profile.List["Total Tech Coins"].Amount.Text
     local SummerCoins = game:GetService("Players").LocalPlayer.PlayerGui.GameUI.Currency.SummerCoins.TextLabel.Text
+    local AquaCoins = game:GetService("Players").LocalPlayer.PlayerGui.GameUI.Currency.AquaCoins.TextLabel.Text
     local Gems = game:GetService("Players").LocalPlayer.PlayerGui.GameUI.Currency.Gems.TextLabel.Text
     local Eggs = game:GetService("Players").LocalPlayer.leaderstats.Eggs.value
     local TimePlayed = game:GetService("Players").LocalPlayer.PlayerGui.GameUI.Menus.Profile.List["Time Played"].Amount.text
@@ -42,7 +43,7 @@ end)
     ["embeds"] = {
         {
             ["title"] = "Chest Simulator | RoNotifier",
-            ["description"] = "- Coins\n - Regular - "..Coins.."\n - Tech - "..TechCoins.."\n - Summer - "..SummerCoins.."\n- Gems\n - Gems - "..Gems.."\n- Other\n - Time Played - "..TimePlayed.."\n - Chests Broken - "..ChestsBroken.."\n - Eggs Opened - "..Eggs.."\n- Settings\n - Cooldown - "..UICooldown.."m",
+            ["description"] = "- Coins\n - Regular - "..Coins.."\n - Tech - "..TechCoins.."\n - Summer - "..SummerCoins.."\n - Aqua - "..AquaCoins.."\n- Gems\n - Gems - "..Gems.."\n- Other\n - Time Played - "..TimePlayed.."\n - Chests Broken - "..ChestsBroken.."\n - Eggs Opened - "..Eggs.."\n- Settings\n - Cooldown - "..UICooldown.."m",
             ["type"] = "rich",
             ["color"] = tonumber(0xc71e15),
             ["author"] = {
@@ -55,7 +56,7 @@ end)
                 ["icon_url"] = "https://i.ibb.co/DLgqRVf/deto5fa-22c69086-a38a-48e5-9e1c-62da7c49047c.png"
             },
             ["thumbnail"] = {
-                ["url"] = "https://i.ibb.co/3yV364y/Png-1.png"
+                ["url"] = "https://i.ibb.co/MCTJwbK/image-2023-07-30-155742973.png"
             }
         }
     }
